@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta Content-Type: image/svg+xml>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Batata</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a href="" class="header--button">Conoce Nuestros Planes <span></span></a>
+            <a href="#plans" class="header--button">Conoce Nuestros Planes <span></span></a>
         </div>
     </header>
     <main>
@@ -110,8 +111,26 @@
                 </article>
             </section>
         </section>
-        <section></section>
-        <section></section>
+        <section class="bitcoin-img-container">
+            <h2>Conócelo hoy.</h2>
+        </section>
+        <section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container--card">
+                    <p class="plans-container--highlight">Recomendado</p>
+                    <div>
+                        <h3>Pago Anual</h3>
+                        <p class="plans--price"><span class="dollar">$</span> 99</p>
+                        <p class="plans--comment">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plans--button">Escoger este <span class="right-arrow"></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
     <footer></footer>
 </body>
